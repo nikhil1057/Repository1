@@ -1,4 +1,7 @@
-long a;
+#include <stdio.h>
+
+int main(void) {
+	long a;
 scanf("%d",&a);
 if(a)
 {
@@ -10,3 +13,5 @@ if(a)
 }
 else
 	printf("Zero");
+	return 0;
+}
