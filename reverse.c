@@ -20,5 +20,5 @@ int main()
     gets(s);
     p = reverseit(s,strlen(s));
     puts(p);
-
+    return 0;
 }
