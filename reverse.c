@@ -16,7 +16,7 @@ char *reverseit(char *str, int len)
 
 int main()
 {
-    char s[10000],*p;
+    char s[100000],*p;
     gets(s);
     p = reverseit(s,strlen(s));
     puts(p);
